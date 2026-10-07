@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { prisma } from "./prisma";
+import { authRouter } from "./routes/auth";
 
 dotenv.config();
 
@@ -14,10 +14,7 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
-app.get("/users-count", async (req, res) => {
-  const total = await prisma.user.count();
-  res.json({ total });
-});
+app.use("/auth", authRouter);
 
 const PORT = process.env.PORT || 3333;
 

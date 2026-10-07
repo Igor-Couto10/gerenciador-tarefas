@@ -7,3 +7,6 @@
 
 ### Banco de dados
 ![Tabelas no Prisma Studio](docs/prisma-studio.png)
+
+### Senha armazenada com hash (bcrypt)
+![Usuário no banco com senha em hash](docs/prisma-hash.png)
