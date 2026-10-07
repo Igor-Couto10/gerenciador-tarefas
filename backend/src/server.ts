@@ -21,3 +21,6 @@ const PORT = process.env.PORT || 3333;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
+
+import { tasksRouter } from "./routes/tasks";
+app.use("/tasks", tasksRouter);
