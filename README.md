@@ -13,3 +13,6 @@
 
 ### Autorização: um usuário não acessa as tarefas de outro
 ![Teste de autorização no Thunder Client](docs/tasks-api.png)
+
+### Tela de tarefas
+![Tela de tarefas do app](docs/app-tasks.png)
