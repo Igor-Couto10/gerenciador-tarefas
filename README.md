@@ -16,3 +16,6 @@
 
 ### Tela de tarefas
 ![Tela de tarefas do app](docs/app-tasks.png)
+
+### Tela de tarefas (app no ar)
+![Tela de tarefas do app no ar](docs/app-tasks-deploy.png)
